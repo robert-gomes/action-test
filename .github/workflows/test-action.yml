@@ -8,4 +8,4 @@ jobs:
   Test GitHub Actions:
     runs-on: alpine-3
     steps:
-      - "Hi there hello"
+      - run: echo "Hi there hello"
