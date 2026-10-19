@@ -5,7 +5,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 
 on: [push]
 jobs:
-  Test GitHub Actions:
+  Test_GitHub_Actions:
     runs-on: alpine-3
     steps:
       - run: echo "Hi there hello"
