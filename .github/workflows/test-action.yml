@@ -3,7 +3,7 @@ name: GitHub Actions Test
 
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 
-on: [push]
+on: [push, manual]
 jobs:
   Test GitHub Actions:
     runs-on: alpine-3
